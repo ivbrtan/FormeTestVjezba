@@ -46,16 +46,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin.cs" />
+    <Compile Include="Book.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormPrikazKnjiga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrikazKnjiga.Designer.cs">
+      <DependentUpon>FormPrikazKnjiga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormStatistikaZanrova.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormStatistikaZanrova.Designer.cs">
+      <DependentUpon>FormStatistikaZanrova.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUnosKnjige.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUnosKnjige.Designer.cs">
+      <DependentUpon>FormUnosKnjige.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrikazKnjiga.resx">
+      <DependentUpon>FormPrikazKnjiga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormStatistikaZanrova.resx">
+      <DependentUpon>FormStatistikaZanrova.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUnosKnjige.resx">
+      <DependentUpon>FormUnosKnjige.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
