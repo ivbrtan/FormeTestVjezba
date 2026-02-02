@@ -16,5 +16,10 @@ namespace WindowsFormsAppTest
         {
             InitializeComponent();
         }
+
+        private void FormStatistikaZanrova_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
