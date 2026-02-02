@@ -58,7 +58,7 @@
             this.label1.Size = new System.Drawing.Size(163, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Unos knjige";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+    
             // 
             // groupBox1
             // 
@@ -102,7 +102,6 @@
             this.label3.Size = new System.Drawing.Size(54, 20);
             this.label3.TabIndex = 2;
             this.label3.Text = "Autor:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtAutor
             // 
@@ -172,7 +171,7 @@
             this.label6.Size = new System.Drawing.Size(110, 20);
             this.label6.TabIndex = 0;
             this.label6.Text = "Broj stranica:";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+
             // 
             // numericUpDown1
             // 
@@ -200,7 +199,7 @@
             this.btnSpremi.TabIndex = 3;
             this.btnSpremi.Text = "Spremi";
             this.btnSpremi.UseVisualStyleBackColor = true;
-            this.btnSpremi.Click += new System.EventHandler(this.btnSpremi_Click);
+ 
             // 
             // btnOdustani
             // 
