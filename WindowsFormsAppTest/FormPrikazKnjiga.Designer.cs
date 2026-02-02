@@ -46,7 +46,7 @@
             this.label1.Size = new System.Drawing.Size(196, 32);
             this.label1.TabIndex = 0;
             this.label1.Text = "Pregled knjiga";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+       
             // 
             // label2
             // 
@@ -74,7 +74,7 @@
             this.btnPretrazi.TabIndex = 3;
             this.btnPretrazi.Text = "Pretraži";
             this.btnPretrazi.UseVisualStyleBackColor = true;
-            this.btnPretrazi.Click += new System.EventHandler(this.btnPretrazi_Click);
+        
             // 
             // btnOsvjezi
             // 
@@ -85,7 +85,7 @@
             this.btnOsvjezi.TabIndex = 4;
             this.btnOsvjezi.Text = "Osvježi";
             this.btnOsvjezi.UseVisualStyleBackColor = true;
-            this.btnOsvjezi.Click += new System.EventHandler(this.btnOsvjezi_Click);
+
             // 
             // listBox1
             // 
