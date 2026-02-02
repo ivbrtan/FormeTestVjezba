@@ -8,5 +8,6 @@ namespace WindowsFormsAppTest
 {
     internal class Admin
     {
+
     }
 }
